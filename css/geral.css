@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", "Helvetica", arial, sans-serif;
+}
+
+header {
+  background-color: #3399ff;
+  height: 90px;
+  padding-top: 10px;
+}
+.wrapper {
+  width: 960px;
+  margin: 0px auto;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+  width: 200px;
+  float: left;
+}
+header nav ul {
+  list-style: none;
+  width: 350px;
+  margin: 0px auto;
+}
+header nav ul li {
+  float: right;
+  margin-top: 10px;
+}
+header nav ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+}
