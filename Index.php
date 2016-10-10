@@ -1,12 +1,9 @@
 <?php
   namespace main;
+  require_once 'vendor/autoload.php';
 
   session_start();
-  define('DEBUG', 1);
-  require("../elpho/startup.php");
-
-  //turn on autoloader for current folder;
-  loadModule('', 'main');
+  require("vendor/elpho/elpho/startup.php");
 
   use elpho\mvc\Router;
   use elpho\mvc\ErrorController;
