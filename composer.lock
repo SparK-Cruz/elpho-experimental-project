@@ -39,16 +39,16 @@
         },
         {
             "name": "elpho/elpho",
-            "version": "0.1.0-alpha3",
+            "version": "0.1.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/elpho.git",
-                "reference": "4c64b586f94f9a8f01c691abdc865352e3dc3418"
+                "reference": "ed9889bd11dd5aaed97be0eb08e0e3acab49c9d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/elpho/zipball/4c64b586f94f9a8f01c691abdc865352e3dc3418",
-                "reference": "4c64b586f94f9a8f01c691abdc865352e3dc3418",
+                "url": "https://api.github.com/repos/elpho/elpho/zipball/ed9889bd11dd5aaed97be0eb08e0e3acab49c9d2",
+                "reference": "ed9889bd11dd5aaed97be0eb08e0e3acab49c9d2",
                 "shasum": ""
             },
             "require": {
@@ -58,14 +58,17 @@
             "autoload": {
                 "psr-4": {
                     "elpho\\system\\": "src/system/"
-                }
+                },
+                "files": [
+                    "startup.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "ISC"
             ],
             "description": "The elpho framework core",
-            "time": "2016-10-10 16:24:35"
+            "time": "2016-10-14 12:30:45"
         },
         {
             "name": "elpho/event",

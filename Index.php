@@ -1,9 +1,11 @@
 <?php
   namespace main;
-  require_once 'vendor/autoload.php';
 
   session_start();
-  require("vendor/elpho/elpho/startup.php");
+  define("DEBUG", 1);
+  require 'vendor/autoload.php';
+
+  registerMain("main\\Index");
 
   use elpho\mvc\Router;
   use elpho\mvc\ErrorController;
