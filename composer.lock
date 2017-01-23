@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e592c4d0e0bd5a6a2c6f88da95f3dd5",
     "content-hash": "9725c23ec3e32521103d7f06a84db2ee",
     "packages": [
         {
@@ -13,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/di.git",
-                "reference": "9d82f388ee6389f3dc98dd13b280598d51c48ef4"
+                "reference": "41c908a480d24aa774ff2828138c5a98a0c4341c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/di/zipball/9d82f388ee6389f3dc98dd13b280598d51c48ef4",
-                "reference": "9d82f388ee6389f3dc98dd13b280598d51c48ef4",
+                "url": "https://api.github.com/repos/elpho/di/zipball/41c908a480d24aa774ff2828138c5a98a0c4341c",
+                "reference": "41c908a480d24aa774ff2828138c5a98a0c4341c",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +34,7 @@
                 "ISC"
             ],
             "description": "Dependency injection engine for the elpho framework",
-            "time": "2016-11-07 19:48:03"
+            "time": "2016-11-07T19:48:03+00:00"
         },
         {
             "name": "elpho/elpho",
@@ -43,12 +42,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/elpho.git",
-                "reference": "cc7449b6951d6eb412a791c0106db2ca02acabf5"
+                "reference": "cc11946ad2f2f3786f3592ea2afe8c074b6ddc01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/elpho/zipball/cc7449b6951d6eb412a791c0106db2ca02acabf5",
-                "reference": "cc7449b6951d6eb412a791c0106db2ca02acabf5",
+                "url": "https://api.github.com/repos/elpho/elpho/zipball/cc11946ad2f2f3786f3592ea2afe8c074b6ddc01",
+                "reference": "cc11946ad2f2f3786f3592ea2afe8c074b6ddc01",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +67,7 @@
                 "ISC"
             ],
             "description": "The elpho framework core",
-            "time": "2016-11-07 19:48:51"
+            "time": "2016-11-07T19:48:51+00:00"
         },
         {
             "name": "elpho/event",
@@ -95,7 +94,7 @@
                 "ISC"
             ],
             "description": "Event system for the elpho framework",
-            "time": "2016-10-10 13:09:03"
+            "time": "2016-10-10T13:09:03+00:00"
         },
         {
             "name": "elpho/lang",
@@ -125,7 +124,7 @@
                 "ISC"
             ],
             "description": "Language extensions for the elpho framework",
-            "time": "2016-11-07 20:38:34"
+            "time": "2016-11-07T20:38:34+00:00"
         },
         {
             "name": "elpho/mvc",
@@ -133,12 +132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/mvc.git",
-                "reference": "62a70c781d02c317248132b3b96649917e8cf93c"
+                "reference": "2111d139967bafe12203e2f9323a0f92bfafd87c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/mvc/zipball/62a70c781d02c317248132b3b96649917e8cf93c",
-                "reference": "62a70c781d02c317248132b3b96649917e8cf93c",
+                "url": "https://api.github.com/repos/elpho/mvc/zipball/2111d139967bafe12203e2f9323a0f92bfafd87c",
+                "reference": "2111d139967bafe12203e2f9323a0f92bfafd87c",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +155,7 @@
                 "ISC"
             ],
             "description": "MVC module for the elpho framework",
-            "time": "2016-11-07 19:54:05"
+            "time": "2016-11-07T19:54:05+00:00"
         }
     ],
     "packages-dev": [],
