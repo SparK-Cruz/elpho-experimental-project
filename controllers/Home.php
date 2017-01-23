@@ -17,7 +17,7 @@
     /**
     * @route(contact)
     */
-    public static final function contact($args, $notificationMailer){
+    public static final function contact($args){
       $view = new View("views/home/contact.html.php");
       $view->resultMessage = "";
       $view->render();

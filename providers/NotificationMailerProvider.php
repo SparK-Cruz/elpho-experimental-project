@@ -7,10 +7,10 @@
   class NotificationMailerProvider implements DependencyProvider{
     private static $instance = null;
 
-    public static function getProvidedClassName(){
+    public function getProvidedClassName(){
       return 'NotificationMailer';
     }
-    public static function getInstance(){
+    public function getInstance(){
       if(self::$instance == null)
         self::$instance = new NotificationMailer();
       return self::$instance;
